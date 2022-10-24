@@ -1,4 +1,5 @@
 import React from "react";
+import {KeyboardAvoidingView} from "react-native"
 import {Conteiner, Cabecalho, TextoCabecalho, Corpo, Campo, Formulario, ConteinerBotoes, BotaoPositivo, BotaoNegativo, TextoBotao, Icone, BotaoEnviar, TextoBotaoEnviar} from './estilo'
 
 function Cadastro(){
@@ -44,6 +45,8 @@ function Cadastro(){
             </Corpo>
 
         </Conteiner>
+
+        
 
     );
 
